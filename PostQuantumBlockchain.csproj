@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BlockchainEngine\**" />
+    <Compile Remove="BlockchainEngine.Tests\**" />
+    <Compile Remove="Examples\**" />
+    <EmbeddedResource Remove="BlockchainEngine\**" />
+    <EmbeddedResource Remove="BlockchainEngine.Tests\**" />
+    <EmbeddedResource Remove="Examples\**" />
+    <None Remove="BlockchainEngine\**" />
+    <None Remove="BlockchainEngine.Tests\**" />
+    <None Remove="Examples\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="BlockchainEngine\BlockchainEngine.csproj" />
+  </ItemGroup>
+
+</Project>
