@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BlockchainEngine.Tests/BlockchainEngine.Tests.csproj" />
+  <Project Path="BlockchainEngine/BlockchainEngine.csproj" />
+  <Project Path="PostQuantumBlockchain.csproj" />
+</Solution>
